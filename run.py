@@ -17,14 +17,14 @@ all_content = []
 
 for each in sorted_values:
     content = (each['id'], each['dropoff_city'],
-               each['stamping_date'], each['latest_status'], each['mdate'])
+               each['stamping_date'], each['visa_type'], each['latest_status'], each['mdate'])
     all_content.append(content)
 
 all_content = all_content[::-1]
 
 # print(all_content)
 
-headers = ("ID", "Dropoff City", "Stamping Data",
+headers = ("ID", "Dropoff City", "Stamping Data", "Visa Type"
            "Latest Status", "Last modified date")
 
 with open('./output.csv', 'w') as fw:

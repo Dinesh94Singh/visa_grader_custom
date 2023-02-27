@@ -1,19 +1,19 @@
-ID,Dropoff City,Stamping Data,Latest Status,Last modified date
-4804163942744064,Chennai,23-Feb-2023,Application Received,26-Feb-2023
-6038812304080896,Chennai,21-Feb-2023,Application Received,26-Feb-2023
-6010036140638208,Chennai,21-Feb-2023,Application Received,26-Feb-2023
-5488567316905984,Chennai,21-Feb-2023,Application Received,27-Feb-2023
-6312700606939136,Chennai,21-Feb-2023,Application Received,27-Feb-2023
-6287464318631936,Chennai,17-Feb-2023,Application Received,27-Feb-2023
-6246279541686272,Chennai,16-Feb-2023,Application Received,26-Feb-2023
-6207354068533248,Chennai,15-Feb-2023,Application Received,27-Feb-2023
-4742516398096384,Chennai,15-Feb-2023,Application Received,27-Feb-2023
-4966483926974464,Chennai,14-Feb-2023,Application Received,27-Feb-2023
-4851145046491136,Chennai,13-Feb-2023,Application Received,26-Feb-2023
-4891443197902848,Chennai,13-Feb-2023,Application Received,27-Feb-2023
-4919718628556800,Chennai,12-Feb-2023,Approved,26-Feb-2023
-6274207918850048,Chennai,10-Feb-2023,Approved,27-Feb-2023
-6574184675147776,Chennai,10-Feb-2023,Application Received,27-Feb-2023
-5961009424498688,Chennai,10-Feb-2023,Application Received,27-Feb-2023
-6208821454176256,Chennai,03-Feb-2023,Issued,27-Feb-2023
-6568541876649984,Chennai,31-Jan-2023,Application Received,27-Feb-2023
+ID,Dropoff City,Stamping Data,Visa TypeLatest Status,Last modified date
+4804163942744064,Chennai,23-Feb-2023,H1B,Application Received,26-Feb-2023
+6038812304080896,Chennai,21-Feb-2023,H1B,Application Received,26-Feb-2023
+6010036140638208,Chennai,21-Feb-2023,H1B,Application Received,26-Feb-2023
+5488567316905984,Chennai,21-Feb-2023,L1,Application Received,27-Feb-2023
+6312700606939136,Chennai,21-Feb-2023,H1B,Application Received,27-Feb-2023
+6287464318631936,Chennai,17-Feb-2023,H1B,Application Received,27-Feb-2023
+6246279541686272,Chennai,16-Feb-2023,H1B,Application Received,26-Feb-2023
+6207354068533248,Chennai,15-Feb-2023,H1B,Application Received,27-Feb-2023
+4742516398096384,Chennai,15-Feb-2023,H1B,Application Received,27-Feb-2023
+4966483926974464,Chennai,14-Feb-2023,H1B,Application Received,27-Feb-2023
+4851145046491136,Chennai,13-Feb-2023,H1B,Application Received,26-Feb-2023
+4891443197902848,Chennai,13-Feb-2023,H1B,Application Received,27-Feb-2023
+4919718628556800,Chennai,12-Feb-2023,H1B,Approved,26-Feb-2023
+6274207918850048,Chennai,10-Feb-2023,H1B,Approved,27-Feb-2023
+6574184675147776,Chennai,10-Feb-2023,H1B,Application Received,27-Feb-2023
+5961009424498688,Chennai,10-Feb-2023,H1B,Application Received,27-Feb-2023
+6208821454176256,Chennai,03-Feb-2023,H1B,Issued,27-Feb-2023
+6568541876649984,Chennai,31-Jan-2023,H1B,Application Received,27-Feb-2023
