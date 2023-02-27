@@ -1,10 +1,36 @@
 from datetime import datetime
 import json
 import csv
+import requests
 
+url = "https://visagrader.com/api/trackers/dropbox/list"
+payload = 'draw=1&start=0&length=300&search%5Bregex%5D=false&search%5Bvalue%5D='
 
-fObj = open('./user-data.json',)
-data = json.load(fObj)['data']
+cookie = None
+with open('cookie.txt', 'r') as fr:
+    cookie = fr.read()
+
+if cookie:
+    print("using cookie")
+
+headers = {
+    'Cookie': cookie,
+    'Content-Type': 'application/x-www-form-urlencoded'
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+obj = json.loads(response.text)
+data = obj['data']
+
+json_object = json.dumps(data, indent=4)
+
+with open('user-data.json', 'w') as fw:
+    fw.write(json_object)
+
+print("total records = ", obj['recordsTotal'])
+# fObj = open('./user-data.json',)
+# data = json.load(fObj)['data']
 
 # print(type(data[0]), data[0])
 
