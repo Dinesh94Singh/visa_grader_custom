@@ -50,7 +50,7 @@ all_content = all_content[::-1]
 
 # print(all_content)
 
-headers = ("ID", "Dropoff City", "Stamping Data", "Visa Type"
+headers = ("ID", "Dropoff City", "Stamping Data", "Visa Type",
            "Latest Status", "Last modified date")
 
 with open('./output.csv', 'w') as fw:
